@@ -1,0 +1,240 @@
+/* ---Body--- */
+body {
+  width: 1440px;
+  font-family: Poppins;
+  font-style: normal;
+  line-height: normal;
+  margin: 0 210px;
+  color: #3a3a3a;
+  padding: 0 0 0 80px;
+  /* border: lightgray 1px solid; */
+}
+
+/* ----------- Header Style -----------*/
+.header-area,
+.header-items,
+.header-things,
+.first-area,
+.submit-area,
+.second-area,
+.see-area,
+.fourth-area,
+.join-area {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.header-title {
+  margin-top: 60px;
+  width: 243px;
+  height: 52.2px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header-items,
+.header-things {
+  gap: 55px;
+  margin-left: 150px;
+  list-style: none;
+}
+.header-things a {
+  text-decoration: none;
+  width: 62px;
+  height: 34.8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+/* ---First-Area--- */
+
+.first-area {
+  margin: 0 0 10px 0;
+}
+/* .left-area {
+  
+}  */
+.left-area-title {
+  width: 582px;
+  height: 133px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+  margin: 0 0 10px 0;
+}
+.left-area-paragraph {
+  width: 505px;
+  height: 60.9px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+.submit-area {
+  width: 120px;
+  padding: 0 30px;
+  border-radius: 41px;
+  background: #e02c6d;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.right-area img {
+  margin-left: 40px;
+  background-image: url("../images/circle.svg");
+  background-repeat: no-repeat;
+  padding: 30px 40px 30px 0px;
+}
+hr {
+  width: 1130px;
+  height: 1px;
+  margin: 40px 0 40px 30px;
+}
+.second-area {
+  margin: 0 0 0 130px;
+  gap: 50px;
+}
+
+/* ---First-Area--- */
+
+/* .third-area {
+  
+} */
+.third-area-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+  margin: 15px 250px 50px 0;
+}
+.third-area-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 70px;
+  justify-items: center;
+  margin: 0 250px 0 0;
+}
+.product-box {
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 20px 0 0 25px;
+}
+.product-box h1 {
+  color: black;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+.product-box h3 {
+  margin: 8px 0 0 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 60%; /* 36px */
+}
+.rating-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 20px;
+  margin-top: 20px;
+}
+.stars {
+  color: orange;
+  font-size: 10px;
+}
+.rating-area h4 {
+  color: #5e6366;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.1px;
+}
+.product-box p {
+  margin: 0;
+  width: 196px;
+  color: #787885;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+}
+.see-area {
+  margin: 10px 0 0 1170px;
+  gap: 10px;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-weight: 700;
+}
+/* --- Fourth Area Start --- */
+.fourth-area {
+  margin: 50px 20px 0 5px;
+  align-items: start;
+}
+.fourth-area img {
+  width: 600px;
+  height: 350px;
+}
+.fourth-area-title {
+  color: #0a0826;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px; /* 157.895% */
+}
+.fourth-area-para {
+  width: 501px;
+  height: 88px;
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 28px; /* 175% */
+}
+.join-area {
+  width: 100px;
+  height: 50px;
+  padding: 0 20px;
+  gap: 8px;
+  background: #e02c6d;
+  font-size: 18px;
+  color: #fff;
+}
+/* ---Footer--- */
+
+footer {
+  width: 2000px;
+  height: 250px;
+  margin: 50px -176px 0 -390px;
+  background: #0a0826;
+}
+
+.last-area-title {
+  color: #fff;
+  text-align: center;
+  padding: 50px 0 0 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.copyright {
+  color: #fff;
+  text-align: center;
+}
+.last-logo {
+  margin: 0 0 0 930px;
+}
+.hide {
+  display: none;
+}
+/* ---Mobile Screen--- */
+
+@media screen and (max-width: 576px) {
+}
